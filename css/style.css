@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+/* line 11, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html, body {
+  height: 100%;
+  font-size: 18px;
+  font-family: "PT Sans", sans-serif;
+}
+
+/* line 16, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html footer, body footer {
+  margin-top: 2em;
+}
+
+/* line 20, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .container-table, body .container-table {
+  overflow-x: auto;
+}
+
+/* line 24, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .select2-container, body .select2-container {
+  min-width: 200px;
+}
+
+/* line 28, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html select[multiple="multiple"], body select[multiple="multiple"] {
+  width: 500px;
+}
+
+/* line 32, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .switch, body .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* line 37, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .switch input, body .switch input {
+  display: none;
+}
+
+/* line 42, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .slider, body .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* line 53, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .slider:before, body .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* line 66, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html input:checked + .slider, body input:checked + .slider {
+  background-color: #2196F3;
+}
+
+/* line 70, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html input:focus + .slider, body input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+/* line 74, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html input:checked + .slider:before, body input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* line 80, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .validator, body .validator {
+  margin: 0 1em;
+  color: red;
+}
+
+/* line 85, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .navbar-custom, body .navbar-custom {
+  border-radius: 0px;
+  border: 0;
+  box-shadow: 5px 5px 30px rgba(145, 145, 145, 0.25);
+}
+
+/* line 92, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .logo h1, body .logo h1 {
+  text-align: center;
+  margin: 1em 0;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding-bottom: 0.25em;
+  padding-top: 0.25em;
+}
+
+/* line 102, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .input-group, body .input-group {
+  width: 100%;
+}
+
+/* line 104, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .input-group .text-input, body .input-group .text-input {
+  width: 100%;
+  padding: 0.5em 1em;
+}
+
+/* line 109, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .btn-custom, body .btn-custom {
+  border-radius: 0;
+  margin: 1em 0;
+}
+
+/* line 114, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html #login-page, body #login-page {
+  height: 100%;
+  background: url("../images/background.jpg");
+}
+
+/* line 117, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html #login-page .container, body #login-page .container {
+  height: 100%;
+}
+
+/* line 119, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html #login-page .container .login-box, body #login-page .container .login-box {
+  margin: 10% 5%;
+}
+
+/* line 121, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html #login-page .container .login-box label, body #login-page .container .login-box label {
+  display: block;
+  margin: 1em 0;
+  font-size: 18px;
+}
+
+/* line 126, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html #login-page .container .login-box .error, body #login-page .container .login-box .error {
+  margin: 1em 0;
+  background-color: red;
+  padding: 1em;
+  color: white;
+}
+
+/* line 132, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html #login-page .container .login-box .custom-box, body #login-page .container .login-box .custom-box {
+  padding: 2em;
+  box-shadow: 0px 0px 40px black;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* line 143, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .input-group label, body .input-group label {
+  display: block;
+  margin: 0.5em 0;
+  font-size: 18px;
+}
+
+/* line 150, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .buttons h2, body .buttons h2 {
+  float: left;
+}
+
+/* line 153, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .buttons a, body .buttons a {
+  float: right;
+}
+
+/* line 157, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .data-table, body .data-table {
+  width: 100%;
+}
+
+/* line 159, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .data-table .width-25, body .data-table .width-25 {
+  width: 25%;
+}
+
+/* line 162, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .data-table .width-15, body .data-table .width-15 {
+  width: 15%;
+}
+
+/* line 165, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .data-table input, body .data-table input {
+  width: 80%;
+  margin: auto 1em;
+}
+
+/* line 169, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .data-table .align-center, body .data-table .align-center {
+  text-align: center;
+}
+
+/* line 172, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .data-table .align-right, body .data-table .align-right {
+  float: right;
+  margin: 0 1em;
+}
+
+/* line 176, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .data-table tr, body .data-table tr {
+  border-bottom: 1px solid black;
+}
+
+/* line 178, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .data-table tr:nth-child(odd), body .data-table tr:nth-child(odd) {
+  background-color: #0b82ac;
+  color: white;
+}
+
+/* line 182, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .data-table tr:nth-child(even), body .data-table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+/* line 185, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .data-table tr:first-child, body .data-table tr:first-child {
+  background-color: #b6e293;
+  color: black;
+}
+
+/* line 189, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .data-table tr th, body .data-table tr th {
+  padding: 0.5em 0.5em;
+  min-width: 150px;
+  text-align: center;
+}
+
+/* line 193, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .data-table tr th input, body .data-table tr th input {
+  display: block;
+  margin: 0 auto;
+  min-width: 150px;
+  padding: 0.5em 1em;
+  font-weight: normal;
+}
+
+/* line 200, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .data-table tr th .action-button, body .data-table tr th .action-button {
+  border-radius: 0px;
+}
+
+/* line 203, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .data-table tr th label, body .data-table tr th label {
+  display: block;
+}
+
+/* line 206, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .data-table tr th span, body .data-table tr th span {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* line 212, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .data-table tr td, body .data-table tr td {
+  padding: 1em 0.5em;
+  min-width: 150px;
+}
+
+/* line 215, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .data-table tr td .actions, body .data-table tr td .actions {
+  text-align: right;
+  margin: 0 1em;
+}
+
+/* line 219, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .data-table tr td .actions a:hover, body .data-table tr td .actions a:hover {
+  text-decoration: none;
+}
+
+/* line 223, D:/xampp/htdocs/farmasoft/scss/style.scss */
+html .data-table tr td .actions .action-button, body .data-table tr td .actions .action-button {
+  margin: 0.25em;
+  border-radius: 0px;
+}
+
+/*# sourceMappingURL=../css/style.map */
